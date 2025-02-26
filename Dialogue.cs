@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 [System.Serializable]
-public class Dialoge :{
+public class Dialogue :{
 
     public string name;
 
