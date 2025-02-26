@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class DialogeManager : MonoBehaviour
+public class DialogueManager : MonoBehaviour
 {
 
     public Text nameText;
@@ -21,7 +21,7 @@ public class DialogeManager : MonoBehaviour
         sentences = new Queue<string>();
     }
     
-    public void StartDialogue (Dialoge dialogue)
+    public void StartDialogue (Dialogue dialogue)
     {
         Debug.Log("starting conversation with " + dialogue.name);
 
